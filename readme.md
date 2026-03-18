@@ -25,7 +25,7 @@ This is a self-contained Matlab function that allows you query the clusters in M
 
 atlas_templates/
 ----------------
-25um coronal templates of CCFv3 and ARA atlases.  These images were used to calculate the mapping between ARA<->CCFv3 using brainreg.
+25um coronal templates of CCFv3 and ARA atlases.  These images were used to calculate the mapping between ARA<->CCFv3 using [brainreg](https://brainglobe.info/documentation/brainreg/index.html).
 
 csvs/
 -----
@@ -36,7 +36,7 @@ Support files containing:
 
 deformation_fields/
 -------------------
-Deformation fields for ARA>CCFv3 mapping, as calculated using brainreg, with a post-hoc scale adjustment (see .py file).  Also contains inverse deformation fields generated following the script *generate_inverse_displacement_field.py*.  The .json file  preserves the parameters used with brainreg.
+Deformation fields for ARA>CCFv3 mapping, as calculated using [brainreg](https://brainglobe.info/documentation/brainreg/index.html), with a post-hoc scale adjustment (see .py file).  Also contains inverse deformation fields generated following the script *generate_inverse_displacement_field.py*.  The .json file  preserves the parameters used with [brainreg](https://brainglobe.info/documentation/brainreg/index.html).
 
 striatum_clusters_ara/
 ----------------------
@@ -61,5 +61,5 @@ https://napari.org/stable/tutorials/fundamentals/installation.html
 
 To run generate_inverse_displacement_field.py, it is necessary to install SimpleITK, e.g., "conda install simpleitk".
 
-To replicate the template mapping between ARA and CCFv3, install brainreg:
+To replicate the template mapping between ARA and CCFv3, install [brainreg](https://brainglobe.info/documentation/brainreg/index.html):
 https://brainglobe.info/documentation/brainreg/installation.html#installation
