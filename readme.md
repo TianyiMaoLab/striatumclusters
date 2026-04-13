@@ -12,7 +12,10 @@ Mao Lab - Vollum Institute
 
 These tools were developed in python/napari, and then ported to Matlab.  Both versions of the code are self-contained (no other custom modules), but do require support files  contained in the sub-folders of this package.
 
-Code related to the original 2016 paper can be located at:
+This repository (as of 2026.04.13) has also been mirrored to Zenodo and includes the large support files (within *atlas_templates/* and *deformation_fields/*) that cannot be stored at GitHub:  
+https://doi.org/10.5281/zenodo.19560861
+
+Code related to the original 2016 paper can be located at:  
 https://github.com/BJHunnicutt/anatomy/  
 
 napari_functions.py
@@ -56,10 +59,10 @@ Two binary masks of the striatum:
 
 napari env
 ----------
-A working napari environment can be recreated by following the standard installation instructions:
+A working napari environment can be recreated by following the standard installation instructions:  
 https://napari.org/stable/tutorials/fundamentals/installation.html
 
 To run generate_inverse_displacement_field.py, it is necessary to install SimpleITK, e.g., "conda install simpleitk".
 
-To replicate the template mapping between ARA and CCFv3, install [brainreg](https://brainglobe.info/documentation/brainreg/index.html):
+To replicate the template mapping between ARA and CCFv3, install [brainreg](https://brainglobe.info/documentation/brainreg/index.html):  
 https://brainglobe.info/documentation/brainreg/installation.html#installation
